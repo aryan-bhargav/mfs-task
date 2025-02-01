@@ -52,8 +52,10 @@ GET METHOD http://localhost:8000/users
 ```sh
 POST METHOD http://localhost:8000/users 
   Body -> x-www-form-urlencoded
-    name              abc
-    email             abc@gmail.com
+| Key | Value     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `abc` |  |
+| `email` | `abc@gmail.com` |  |
 ```
 
 **Response Example:**
